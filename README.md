@@ -1,9 +1,12 @@
-<img width="257" height="254" alt="quietreels" src="https://github.com/user-attachments/assets/ebce8f1f-5775-4453-9ce5-dbd4944d89e4" />
-
+<img width="257" height="254" alt="Quiet Reels popup with a volume slider set to 10%" src="https://github.com/user-attachments/assets/ebce8f1f-5775-4453-9ce5-dbd4944d89e4" />
 
 # Quiet Reels
 
 A tiny Chrome extension that gives Facebook and Instagram videos a volume slider that remembers your setting. No more reels blasting at full volume the moment you unmute.
+
+## Why I made it
+
+I got tired of Facebook not having a real volume control. Reels are either muted or full blast, and I was sick of getting my ears blasted off every time I went to watch one. So I made the volume slider Facebook should have had in the first place.
 
 ## What it does
 
@@ -30,5 +33,9 @@ Chrome may show a notice about developer-mode extensions. That's normal for exte
 ## Updating
 
 Replace the files in your `QuietReels` folder with the new ones, then click the reload arrow on the Quiet Reels card in `chrome://extensions` and refresh your Facebook or Instagram tabs.
+
+## Having issues?
+
+If something isn't working, open an issue on the [Issues](../../issues) page and let me know what's happening (which site, and what you were doing when it went wrong). I'll take a look!
 
 © 2026 NerdyBertie. All rights reserved. You're welcome to download and use Quiet Reels, but please don't redistribute or modify it.
