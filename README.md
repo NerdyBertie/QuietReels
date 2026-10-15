@@ -34,6 +34,10 @@ Chrome may show a notice about developer-mode extensions. That's normal for exte
 
 Replace the files in your `QuietReels` folder with the new ones, then click the reload arrow on the Quiet Reels card in `chrome://extensions` and refresh your Facebook or Instagram tabs.
 
+## Support
+
+If you like Quiet Reels, donations are encouraged but never necessary. You can buy me a coffee on [Ko-fi](https://ko-fi.com/nerdybertie). Thank you!
+
 ## Having issues?
 
 If something isn't working, open an issue on the [Issues](../../issues) page and let me know what's happening (which site, and what you were doing when it went wrong). I'll take a look!
