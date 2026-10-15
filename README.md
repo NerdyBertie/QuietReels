@@ -1,3 +1,6 @@
+<img width="257" height="254" alt="quietreels" src="https://github.com/user-attachments/assets/ebce8f1f-5775-4453-9ce5-dbd4944d89e4" />
+
+
 # Quiet Reels
 
 A tiny Chrome extension that gives Facebook and Instagram videos a volume slider that remembers your setting. No more reels blasting at full volume the moment you unmute.
