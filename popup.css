@@ -1,0 +1,38 @@
+:root {
+  --bg: #F3EEF8;      /* soft lilac */
+  --ink: #2E1A3D;     /* deep plum */
+  --muted: #6E5A80;
+  --track: #DCCFE9;
+  --fill: #7A3FA8;    /* violet */
+  --knob: #2E1A3D;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; width: 260px; padding: 18px 18px 16px;
+  background: var(--bg); color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.site { margin: 0 0 2px; font-weight: 600; color: var(--muted); }
+.readout { font-size: 56px; font-weight: 800; line-height: 1; letter-spacing: -0.03em; margin-bottom: 14px; }
+.readout .sign { font-size: 28px; font-weight: 600; margin-left: 2px; color: var(--muted); }
+
+input[type=range] {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 14px;
+  border-radius: 7px; outline: none; cursor: pointer;
+  background: linear-gradient(to right, var(--fill) var(--p, 10%), var(--track) var(--p, 10%));
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--knob); border: 3px solid var(--bg); box-shadow: 0 0 0 2px var(--knob);
+}
+input[type=range]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 2px var(--knob), 0 0 0 5px var(--fill); }
+
+.presets { display: flex; gap: 6px; margin: 14px 0 12px; }
+.presets button {
+  flex: 1; padding: 5px 0; border: 1.5px solid var(--track); border-radius: 6px;
+  background: transparent; color: var(--ink); font: inherit; font-weight: 600; cursor: pointer;
+}
+.presets button:hover { border-color: var(--fill); }
+.presets button:focus-visible { outline: 2px solid var(--fill); outline-offset: 1px; }
+.presets button.on { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.note { margin: 0; font-size: 12px; color: var(--muted); }
